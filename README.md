@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎬 Hot-Video-Scrapy-Crawler
+# 热门视频爬虫 | Hot-Video-Scrapy-Crawler
 
 ### A Scrapy crawler for hot videos.
 
