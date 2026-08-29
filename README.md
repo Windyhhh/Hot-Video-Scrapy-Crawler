@@ -65,6 +65,35 @@ Hot-Video-Scrapy-Crawler/
 
 ---
 
+## 技术实现细节
+
+### 架构概览
+
+项目采用模块化设计，核心目录包括：**Spider**。
+
+### 关键函数
+
+- `db_connect`, `batch`
+
+### 技术栈与依赖
+
+**主要 import**：
+```python
+import os
+import configparser
+import os
+import random
+import pymysql
+import pymssql
+from pymysql.cursors import DictCursor
+```
+
+### 实现要点
+
+- 通过 `db_connect` 等函数实现核心流程编排
+- 代码结构清晰，模块间低耦合，便于扩展和维护
+
+---
 ## License
 
 MIT — free to use, modify and distribute.
